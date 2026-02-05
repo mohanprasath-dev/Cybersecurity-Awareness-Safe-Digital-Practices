@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about CyberShield's mission to promote cybersecurity awareness and empower individuals with safe digital practices.">
+  <title>About Us - CyberShield | Cybersecurity Awareness</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader__spinner"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar__brand">
+      <div class="navbar__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+      </div>
+      <span>CyberShield</span>
+    </a>
+    
+    <div class="navbar__nav">
+      <a href="index.html" class="navbar__link">Home</a>
+      <a href="about.html" class="navbar__link active">About</a>
+      <a href="threats.html" class="navbar__link">Threats</a>
+      <a href="best-practices.html" class="navbar__link">Best Practices</a>
+      <a href="resources.html" class="navbar__link">Resources</a>
+    </div>
+    
+    <div class="navbar__actions">
+      <a href="contact.html" class="navbar__btn navbar__btn--primary">
+        <span>Contact Us</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"/>
+          <polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </a>
+    </div>
+    
+    <button class="navbar__toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="navbar__mobile">
+    <div class="navbar__mobile-nav">
+      <a href="index.html" class="navbar__mobile-link">Home</a>
+      <a href="about.html" class="navbar__mobile-link active">About</a>
+      <a href="threats.html" class="navbar__mobile-link">Threats</a>
+      <a href="best-practices.html" class="navbar__mobile-link">Best Practices</a>
+      <a href="resources.html" class="navbar__mobile-link">Resources</a>
+      <a href="contact.html" class="navbar__mobile-link">Contact</a>
+    </div>
+    <div class="navbar__mobile-actions">
+      <a href="contact.html" class="navbar__btn navbar__btn--primary">
+        <span>Contact Us</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero__parallax">
+      <div class="hero__parallax-element"></div>
+      <div class="hero__parallax-element"></div>
+    </div>
+    <div class="container">
+      <div class="page-hero__content fade-up">
+        <h1 class="page-hero__title">About <span class="text-gradient">CyberShield</span></h1>
+        <p class="page-hero__subtitle">Dedicated to making cybersecurity accessible and actionable for everyone, from individuals to enterprises.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image fade-up">
+          <div class="about-image__decoration"></div>
+          <div class="about-image__main">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 225" fill="none">
+              <!-- Background -->
+              <rect width="300" height="225" fill="url(#missionGrad)"/>
+              <defs>
+                <linearGradient id="missionGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:rgba(99,102,241,0.1)"/>
+                  <stop offset="100%" style="stop-color:rgba(14,165,233,0.1)"/>
+                </linearGradient>
+              </defs>
+              <!-- Shield -->
+              <path d="M150 40l-60 20v45c0 40 60 60 60 60s60-20 60-60V60l-60-20z" fill="white" stroke="#6366f1" stroke-width="3"/>
+              <path d="M150 55l-45 15v35c0 30 45 45 45 45s45-15 45-45V70l-45-15z" fill="rgba(99,102,241,0.1)"/>
+              <!-- Checkmark -->
+              <path d="M125 95l15 15l35-35" stroke="#22c55e" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- People icons -->
+              <circle cx="70" cy="175" r="15" fill="#e2e8f0"/>
+              <path d="M55 200a15 15 0 0 1 30 0" fill="#e2e8f0"/>
+              <circle cx="150" cy="175" r="15" fill="#6366f1" opacity="0.3"/>
+              <path d="M135 200a15 15 0 0 1 30 0" fill="#6366f1" opacity="0.3"/>
+              <circle cx="230" cy="175" r="15" fill="#e2e8f0"/>
+              <path d="M215 200a15 15 0 0 1 30 0" fill="#e2e8f0"/>
+              <!-- Connection lines -->
+              <path d="M85 185h50M165 185h50" stroke="#6366f1" stroke-width="2" stroke-dasharray="5,5"/>
+            </svg>
+          </div>
+          <div class="about-image__decoration"></div>
+        </div>
+        
+        <div class="about-text fade-up">
+          <h2>Our <span class="text-gradient">Mission</span></h2>
+          <p>At CyberShield, we believe that cybersecurity knowledge should be accessible to everyone. In an era where digital threats evolve faster than ever, understanding how to protect yourself online isn't just important—it's essential.</p>
+          <p>Our mission is to demystify cybersecurity, breaking down complex concepts into practical, actionable guidance that anyone can understand and implement. We're committed to empowering individuals and organizations with the knowledge they need to navigate the digital world safely.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>Making cybersecurity education accessible to all</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>Providing practical, real-world security guidance</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>Building a community of security-conscious individuals</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision Section -->
+  <section class="section section--light">
+    <div class="container">
+      <div class="about-content about-content--reverse">
+        <div class="about-image fade-up">
+          <div class="about-image__decoration"></div>
+          <div class="about-image__main">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 225" fill="none">
+              <!-- Background -->
+              <rect width="300" height="225" fill="url(#visionGrad)"/>
+              <defs>
+                <linearGradient id="visionGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:rgba(99,102,241,0.1)"/>
+                  <stop offset="100%" style="stop-color:rgba(14,165,233,0.1)"/>
+                </linearGradient>
+              </defs>
+              <!-- Globe -->
+              <circle cx="150" cy="100" r="60" fill="white" stroke="#6366f1" stroke-width="2"/>
+              <ellipse cx="150" cy="100" rx="60" ry="20" fill="none" stroke="#6366f1" stroke-width="1.5"/>
+              <ellipse cx="150" cy="100" rx="25" ry="60" fill="none" stroke="#6366f1" stroke-width="1.5"/>
+              <line x1="90" y1="100" x2="210" y2="100" stroke="#6366f1" stroke-width="1.5"/>
+              <!-- Lock on globe -->
+              <rect x="135" y="85" width="30" height="25" rx="4" fill="#6366f1"/>
+              <path d="M140 85V75a10 10 0 0 1 20 0v10" stroke="#6366f1" stroke-width="2" fill="none"/>
+              <circle cx="150" cy="95" r="3" fill="white"/>
+              <rect x="148" y="95" width="4" height="8" rx="1" fill="white"/>
+              <!-- Network nodes -->
+              <circle cx="60" cy="180" r="12" fill="#0ea5e9" opacity="0.3"/>
+              <circle cx="150" cy="195" r="12" fill="#0ea5e9" opacity="0.3"/>
+              <circle cx="240" cy="180" r="12" fill="#0ea5e9" opacity="0.3"/>
+              <!-- Connection lines to globe -->
+              <path d="M72 175l40-50M150 165v20M228 175l-40-50" stroke="#0ea5e9" stroke-width="2" opacity="0.5"/>
+              <!-- Stats -->
+              <text x="60" y="185" font-size="10" fill="#0ea5e9" text-anchor="middle" font-weight="bold">1M+</text>
+              <text x="150" y="200" font-size="10" fill="#0ea5e9" text-anchor="middle" font-weight="bold">2030</text>
+              <text x="240" y="185" font-size="10" fill="#0ea5e9" text-anchor="middle" font-weight="bold">100%</text>
+            </svg>
+          </div>
+          <div class="about-image__decoration"></div>
+        </div>
+        
+        <div class="about-text fade-up">
+          <h2>Our <span class="text-gradient">Vision</span></h2>
+          <p>We envision a world where everyone has the knowledge and tools to protect themselves in the digital realm. A world where cyber attacks are thwarted not just by advanced technology, but by informed, security-conscious individuals who understand the importance of digital hygiene.</p>
+          <p>By 2030, we aim to have educated over one million people in cybersecurity fundamentals, contributing to a safer, more secure digital ecosystem for everyone. We believe that collective awareness is the most powerful defense against cyber threats.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>A digitally literate global community</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>Reduced cybercrime through education</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>Security-first mindset as the new normal</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Our Core <span class="text-gradient">Values</span></h2>
+        <p>These principles guide everything we do, from the content we create to the way we engage with our community.</p>
+      </div>
+      
+      <div class="features">
+        <div class="feature-card fade-up stagger-item">
+          <div class="feature-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+              <line x1="6" y1="1" x2="6" y2="4"/>
+              <line x1="10" y1="1" x2="10" y2="4"/>
+              <line x1="14" y1="1" x2="14" y2="4"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Accessibility</h3>
+          <p class="feature-card__text">We believe cybersecurity knowledge should be free and accessible to everyone, regardless of technical background or expertise level. Complex concepts deserve simple explanations.</p>
+        </div>
+        
+        <div class="feature-card fade-up stagger-item">
+          <div class="feature-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Integrity</h3>
+          <p class="feature-card__text">We provide honest, unbiased information based on current research and industry best practices. Our recommendations are never influenced by commercial interests.</p>
+        </div>
+        
+        <div class="feature-card fade-up stagger-item">
+          <div class="feature-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Community</h3>
+          <p class="feature-card__text">Security is a collective effort. We foster a supportive community where people can learn together, share experiences, and help each other stay safe online.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section section--light">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Meet Our <span class="text-gradient">Team</span></h2>
+        <p>Our team combines decades of experience in cybersecurity, education, and technology to bring you the most relevant and actionable security guidance.</p>
+      </div>
+      
+      <div class="team-grid">
+        <div class="team-card fade-up stagger-item">
+          <div class="team-card__avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h4 class="team-card__name">Dr. Sarah Chen</h4>
+          <p class="team-card__role">Chief Security Officer</p>
+          <p class="team-card__bio">Former NSA security analyst with 15 years of experience in threat intelligence and cyber defense strategies.</p>
+        </div>
+        
+        <div class="team-card fade-up stagger-item">
+          <div class="team-card__avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h4 class="team-card__name">Marcus Thompson</h4>
+          <p class="team-card__role">Head of Education</p>
+          <p class="team-card__bio">Cybersecurity educator and author, passionate about making complex security concepts accessible to everyone.</p>
+        </div>
+        
+        <div class="team-card fade-up stagger-item">
+          <div class="team-card__avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h4 class="team-card__name">Elena Rodriguez</h4>
+          <p class="team-card__role">Research Director</p>
+          <p class="team-card__bio">PhD in Computer Science, specializing in emerging threats and advanced persistent threat analysis.</p>
+        </div>
+        
+        <div class="team-card fade-up stagger-item">
+          <div class="team-card__avatar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+          </div>
+          <h4 class="team-card__name">James Park</h4>
+          <p class="team-card__role">Community Manager</p>
+          <p class="team-card__bio">Dedicated to building and nurturing our security-conscious community through engagement and support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Our Impact in <span class="text-gradient">Numbers</span></h2>
+        <p>We're proud of the difference we've made in helping people stay safe online.</p>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-card fade-up stagger-item">
+          <div class="stat-card__value counter" data-target="50000">0</div>
+          <div class="stat-card__label">People Educated</div>
+        </div>
+        <div class="stat-card fade-up stagger-item">
+          <div class="stat-card__value counter" data-target="200">0</div>
+          <div class="stat-card__label">Articles Published</div>
+        </div>
+        <div class="stat-card fade-up stagger-item">
+          <div class="stat-card__value counter" data-target="15">0</div>
+          <div class="stat-card__label">Countries Reached</div>
+        </div>
+        <div class="stat-card fade-up stagger-item">
+          <div class="stat-card__value counter" data-target="98">0</div>
+          <div class="stat-card__label">% Satisfaction Rate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container">
+      <div class="cta fade-up">
+        <div class="cta__content">
+          <h3 class="cta__title">Join Our Mission</h3>
+          <p class="cta__text">Be part of the movement to create a safer digital world. Whether you want to learn, contribute, or partner with us, we'd love to hear from you.</p>
+          <a href="contact.html" class="btn btn--secondary">
+            <span>Get in Touch</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <span>CyberShield</span>
+          </div>
+          <p class="footer__description">Empowering individuals and organizations with the knowledge and tools to navigate the digital world safely and securely.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__column">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="threats.html" class="footer__link">Cyber Threats</a></li>
+            <li><a href="best-practices.html" class="footer__link">Best Practices</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4 class="footer__title">Resources</h4>
+          <ul class="footer__links">
+            <li><a href="resources.html" class="footer__link">Security Tools</a></li>
+            <li><a href="resources.html" class="footer__link">Learning Center</a></li>
+            <li><a href="resources.html" class="footer__link">Guides & Tutorials</a></li>
+            <li><a href="contact.html" class="footer__link">Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4 class="footer__title">Creator</h4>
+          <ul class="footer__links">
+            <li><span class="footer__link footer__creator-name">Mohan</span></li>
+            <li><a href="mailto:mohanprasath210607@gmail.com" class="footer__link">mohanprasath210607@gmail.com</a></li>
+            <li><a href="https://github.com/mohanprasath-dev" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mohanprasath21/" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 CyberShield. Created by <a href="https://github.com/mohanprasath-dev" target="_blank" rel="noopener noreferrer">Mohan</a>. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"/>
+      <polyline points="5 12 12 5 19 12"/>
+    </svg>
+  </button>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

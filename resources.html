@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Curated cybersecurity resources, tools, guides, and learning materials to help you stay safe online and enhance your security knowledge.">
+  <title>Resources - CyberShield | Security Tools & Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader__spinner"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar__brand">
+      <div class="navbar__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+      </div>
+      <span>CyberShield</span>
+    </a>
+    
+    <div class="navbar__nav">
+      <a href="index.html" class="navbar__link">Home</a>
+      <a href="about.html" class="navbar__link">About</a>
+      <a href="threats.html" class="navbar__link">Threats</a>
+      <a href="best-practices.html" class="navbar__link">Best Practices</a>
+      <a href="resources.html" class="navbar__link active">Resources</a>
+    </div>
+    
+    <div class="navbar__actions">
+      <a href="contact.html" class="navbar__btn navbar__btn--primary">
+        <span>Contact Us</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"/>
+          <polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </a>
+    </div>
+    
+    <button class="navbar__toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="navbar__mobile">
+    <div class="navbar__mobile-nav">
+      <a href="index.html" class="navbar__mobile-link">Home</a>
+      <a href="about.html" class="navbar__mobile-link">About</a>
+      <a href="threats.html" class="navbar__mobile-link">Threats</a>
+      <a href="best-practices.html" class="navbar__mobile-link">Best Practices</a>
+      <a href="resources.html" class="navbar__mobile-link active">Resources</a>
+      <a href="contact.html" class="navbar__mobile-link">Contact</a>
+    </div>
+    <div class="navbar__mobile-actions">
+      <a href="contact.html" class="navbar__btn navbar__btn--primary">
+        <span>Contact Us</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero__parallax">
+      <div class="hero__parallax-element"></div>
+      <div class="hero__parallax-element"></div>
+    </div>
+    <div class="container">
+      <div class="page-hero__content fade-up">
+        <h1 class="page-hero__title">Security <span class="text-gradient">Resources</span></h1>
+        <p class="page-hero__subtitle">Curated tools, guides, and learning materials to help you build a stronger security foundation and stay protected online.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Essential Tools Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Essential Security <span class="text-gradient">Tools</span></h2>
+        <p>These trusted tools can help protect your digital life from common cyber threats.</p>
+      </div>
+      
+      <div class="content-grid">
+        <div class="resource-card fade-up stagger-item">
+          <div class="resource-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h4 class="resource-card__title">Password Managers</h4>
+          <p class="resource-card__text">Securely store and manage all your passwords in one encrypted vault. Generate strong, unique passwords for every account without having to remember them all.</p>
+          <a href="#" class="btn btn--outline" style="margin-top: auto;">Learn More</a>
+        </div>
+        
+        <div class="resource-card fade-up stagger-item">
+          <div class="resource-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+          </div>
+          <h4 class="resource-card__title">Antivirus Software</h4>
+          <p class="resource-card__text">Protect your devices from malware, viruses, ransomware, and other threats with real-time scanning and automatic updates to stay ahead of emerging threats.</p>
+          <a href="#" class="btn btn--outline" style="margin-top: auto;">Learn More</a>
+        </div>
+        
+        <div class="resource-card fade-up stagger-item">
+          <div class="resource-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 9.9-1"/>
+            </svg>
+          </div>
+          <h4 class="resource-card__title">VPN Services</h4>
+          <p class="resource-card__text">Encrypt your internet connection and protect your privacy on public Wi-Fi networks. VPNs mask your IP address and prevent data interception.</p>
+          <a href="#" class="btn btn--outline" style="margin-top: auto;">Learn More</a>
+        </div>
+        
+        <div class="resource-card fade-up stagger-item">
+          <div class="resource-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+              <line x1="12" y1="18" x2="12.01" y2="18"/>
+            </svg>
+          </div>
+          <h4 class="resource-card__title">Authenticator Apps</h4>
+          <p class="resource-card__text">Generate secure one-time codes for two-factor authentication. More secure than SMS-based verification and works even without cell service.</p>
+          <a href="#" class="btn btn--outline" style="margin-top: auto;">Learn More</a>
+        </div>
+        
+        <div class="resource-card fade-up stagger-item">
+          <div class="resource-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="12"/>
+              <line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+          </div>
+          <h4 class="resource-card__title">Breach Monitors</h4>
+          <p class="resource-card__text">Stay informed about data breaches that may have exposed your information. Get alerts when your email or passwords appear in known breach databases.</p>
+          <a href="#" class="btn btn--outline" style="margin-top: auto;">Learn More</a>
+        </div>
+        
+        <div class="resource-card fade-up stagger-item">
+          <div class="resource-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="17 8 12 3 7 8"/>
+              <line x1="12" y1="3" x2="12" y2="15"/>
+            </svg>
+          </div>
+          <h4 class="resource-card__title">Backup Solutions</h4>
+          <p class="resource-card__text">Automatically backup your important files to secure cloud storage or local drives. Protection against ransomware, hardware failure, and accidental deletion.</p>
+          <a href="#" class="btn btn--outline" style="margin-top: auto;">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Resources Section -->
+  <section class="section section--light">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Learning <span class="text-gradient">Center</span></h2>
+        <p>Expand your cybersecurity knowledge with these curated educational resources.</p>
+      </div>
+      
+      <div class="content-grid" style="gap: var(--space-xl);">
+        <div class="icon-box fade-up stagger-item">
+          <div class="icon-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <div class="icon-box__content">
+            <h4>Beginner's Guide to Cybersecurity</h4>
+            <p>A comprehensive introduction covering fundamental concepts, common threats, and essential practices for anyone new to digital security.</p>
+          </div>
+        </div>
+        
+        <div class="icon-box fade-up stagger-item">
+          <div class="icon-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="23 7 16 12 23 17 23 7"/>
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+          </div>
+          <div class="icon-box__content">
+            <h4>Video Tutorials</h4>
+            <p>Step-by-step video guides on setting up security tools, recognizing phishing attempts, and implementing best practices on your devices.</p>
+          </div>
+        </div>
+        
+        <div class="icon-box fade-up stagger-item">
+          <div class="icon-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <div class="icon-box__content">
+            <h4>Downloadable Checklists</h4>
+            <p>Printable security checklists for personal use, family devices, home networks, and small businesses to ensure comprehensive protection.</p>
+          </div>
+        </div>
+        
+        <div class="icon-box fade-up stagger-item">
+          <div class="icon-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+          </div>
+          <div class="icon-box__content">
+            <h4>Interactive Quizzes</h4>
+            <p>Test your knowledge with interactive quizzes on phishing detection, password strength, and security best practices with instant feedback.</p>
+          </div>
+        </div>
+        
+        <div class="icon-box fade-up stagger-item">
+          <div class="icon-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </div>
+          <div class="icon-box__content">
+            <h4>Community Forums</h4>
+            <p>Join discussions with security-conscious individuals, ask questions, share experiences, and learn from real-world scenarios.</p>
+          </div>
+        </div>
+        
+        <div class="icon-box fade-up stagger-item">
+          <div class="icon-box__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="icon-box__content">
+            <h4>Security Newsletter</h4>
+            <p>Weekly updates on the latest threats, security news, tips, and exclusive resources delivered straight to your inbox.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Reference Guides Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Quick Reference <span class="text-gradient">Guides</span></h2>
+        <p>Concise, actionable guides for immediate implementation of security measures.</p>
+      </div>
+      
+      <div class="features">
+        <div class="content-card fade-up stagger-item">
+          <div class="content-card__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <div class="content-card__body">
+            <span class="content-card__tag">5 Min Read</span>
+            <h4 class="content-card__title">Creating Unbreakable Passwords</h4>
+            <p class="content-card__text">Master the art of creating strong, memorable passwords that resist cracking attempts and keep your accounts secure.</p>
+            <a href="best-practices.html" class="content-card__link">
+              <span>Read Guide</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="content-card fade-up stagger-item">
+          <div class="content-card__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="content-card__body">
+            <span class="content-card__tag">7 Min Read</span>
+            <h4 class="content-card__title">Spotting Phishing Emails</h4>
+            <p class="content-card__text">Learn the telltale signs of phishing attempts and develop the skills to identify and avoid email-based attacks.</p>
+            <a href="threats.html" class="content-card__link">
+              <span>Read Guide</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="content-card fade-up stagger-item">
+          <div class="content-card__image">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+              <line x1="12" y1="18" x2="12.01" y2="18"/>
+            </svg>
+          </div>
+          <div class="content-card__body">
+            <span class="content-card__tag">10 Min Read</span>
+            <h4 class="content-card__title">Setting Up 2FA Everywhere</h4>
+            <p class="content-card__text">A comprehensive walkthrough for enabling two-factor authentication on all your important accounts and devices.</p>
+            <a href="best-practices.html" class="content-card__link">
+              <span>Read Guide</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- External Resources Section -->
+  <section class="section section--light">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Trusted External <span class="text-gradient">Resources</span></h2>
+        <p>Authoritative sources and organizations dedicated to cybersecurity awareness.</p>
+      </div>
+      
+      <div class="content-grid" style="gap: var(--space-lg);">
+        <div class="threat-card fade-up stagger-item">
+          <div class="threat-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div class="threat-card__content">
+            <h4 class="threat-card__title">CISA (Cybersecurity & Infrastructure Security Agency)</h4>
+            <p class="threat-card__text">Official US government resource for cybersecurity guidance, alerts, and resources for individuals and organizations.</p>
+          </div>
+        </div>
+        
+        <div class="threat-card fade-up stagger-item">
+          <div class="threat-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div class="threat-card__content">
+            <h4 class="threat-card__title">NIST Cybersecurity Framework</h4>
+            <p class="threat-card__text">Industry-standard framework for managing cybersecurity risk, widely adopted by organizations worldwide.</p>
+          </div>
+        </div>
+        
+        <div class="threat-card fade-up stagger-item">
+          <div class="threat-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="threat-card__content">
+            <h4 class="threat-card__title">SANS Security Awareness</h4>
+            <p class="threat-card__text">World-renowned security training organization offering resources, research, and educational materials.</p>
+          </div>
+        </div>
+        
+        <div class="threat-card fade-up stagger-item">
+          <div class="threat-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <div class="threat-card__content">
+            <h4 class="threat-card__title">Have I Been Pwned</h4>
+            <p class="threat-card__text">Free service to check if your email or passwords have been compromised in known data breaches.</p>
+          </div>
+        </div>
+        
+        <div class="threat-card fade-up stagger-item">
+          <div class="threat-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+          </div>
+          <div class="threat-card__content">
+            <h4 class="threat-card__title">Electronic Frontier Foundation</h4>
+            <p class="threat-card__text">Digital rights organization providing privacy tools, guidance, and advocacy for online security and freedom.</p>
+          </div>
+        </div>
+        
+        <div class="threat-card fade-up stagger-item">
+          <div class="threat-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <div class="threat-card__content">
+            <h4 class="threat-card__title">StaySafeOnline.org</h4>
+            <p class="threat-card__text">National Cyber Security Alliance's consumer-focused resource for online safety tips and awareness campaigns.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section">
+    <div class="container">
+      <div class="cta fade-up">
+        <div class="cta__content">
+          <h3 class="cta__title">Stay Informed</h3>
+          <p class="cta__text">Subscribe to our newsletter for weekly security tips, threat alerts, and exclusive resources delivered to your inbox.</p>
+          <a href="contact.html" class="btn btn--secondary">
+            <span>Subscribe Now</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <div class="footer__brand">
+            <div class="footer__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <span>CyberShield</span>
+          </div>
+          <p class="footer__description">Empowering individuals and organizations with the knowledge and tools to navigate the digital world safely and securely.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__column">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="threats.html" class="footer__link">Cyber Threats</a></li>
+            <li><a href="best-practices.html" class="footer__link">Best Practices</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4 class="footer__title">Resources</h4>
+          <ul class="footer__links">
+            <li><a href="resources.html" class="footer__link">Security Tools</a></li>
+            <li><a href="resources.html" class="footer__link">Learning Center</a></li>
+            <li><a href="resources.html" class="footer__link">Guides & Tutorials</a></li>
+            <li><a href="contact.html" class="footer__link">Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__column">
+          <h4 class="footer__title">Creator</h4>
+          <ul class="footer__links">
+            <li><span class="footer__link footer__creator-name">Mohan</span></li>
+            <li><a href="mailto:mohanprasath210607@gmail.com" class="footer__link">mohanprasath210607@gmail.com</a></li>
+            <li><a href="https://github.com/mohanprasath-dev" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mohanprasath21/" class="footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 CyberShield. Created by <a href="https://github.com/mohanprasath-dev" target="_blank" rel="noopener noreferrer">Mohan</a>. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"/>
+      <polyline points="5 12 12 5 19 12"/>
+    </svg>
+  </button>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
